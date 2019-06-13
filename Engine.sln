@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Source", "Source\Source.vcxproj", "{6572BCF5-C150-485E-81A6-9F8F89C4346C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Map Editor", "Map Editor\Map Editor.vcxproj", "{2892B2DC-B8FB-42D7-B30D-B31D2AA6A434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6572BCF5-C150-485E-81A6-9F8F89C4346C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6572BCF5-C150-485E-81A6-9F8F89C4346C}.Debug|Win32.Build.0 = Debug|Win32
+		{6572BCF5-C150-485E-81A6-9F8F89C4346C}.Release|Win32.ActiveCfg = Release|Win32
+		{6572BCF5-C150-485E-81A6-9F8F89C4346C}.Release|Win32.Build.0 = Release|Win32
+		{2892B2DC-B8FB-42D7-B30D-B31D2AA6A434}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2892B2DC-B8FB-42D7-B30D-B31D2AA6A434}.Debug|Win32.Build.0 = Debug|Win32
+		{2892B2DC-B8FB-42D7-B30D-B31D2AA6A434}.Release|Win32.ActiveCfg = Release|Win32
+		{2892B2DC-B8FB-42D7-B30D-B31D2AA6A434}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

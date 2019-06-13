@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Header">
+      <UniqueIdentifier>{a30476e7-12f0-4fe2-aedb-352d1bccc4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Source">
+      <UniqueIdentifier>{9877c43a-24a6-4390-8739-b954cabe0612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\cAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cAnimationPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cContentManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cGameTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cGameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cSpriteBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\General.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Mathematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Rectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Size.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameState.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cGem.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cGemsGame.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cIntroState.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cLevel.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenuButton.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenuState.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cState.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Game Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameState.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cGem.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cGemsGame.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cIntroState.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cLevel.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenuButton.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenuState.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="cState.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cContentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cGameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cSpriteBatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
